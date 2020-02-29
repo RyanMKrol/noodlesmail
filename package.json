@@ -1,6 +1,6 @@
 {
   "name": "noodlesmail",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "A package for sending mail",
   "main": "build/index.js",
   "keywords": [
@@ -15,6 +15,7 @@
     "build": "babel src --out-dir build",
     "start": "npm run-script build && node build/bin/www.js"
   },
+  "files": ["build"],
   "dependencies": {
     "@babel/runtime": "^7.8.4",
     "nodemailer": "^6.4.2"
