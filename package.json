@@ -1,14 +1,14 @@
 {
   "name": "noodlesmail",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A package for sending mail",
   "main": "build/index.js",
   "keywords": [
     "mail"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/RyanMKrol/noodlesmail.git"
+    "type": "git",
+    "url": "https://github.com/RyanMKrol/noodlesmail.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
