@@ -12,10 +12,18 @@ class MailSender {
     })
   }
 
-  async sendMail(from, to, subject, body) {
+  setFrom(from) {
+    this.from = from
+  }
+
+  setTo(to) {
+    this.to = to
+  }
+
+  async sendMail(subject, body) {
     let info = await this.transporter.sendMail({
-      from: from,
-      to: to,
+      from: this.from,
+      to: this.to,
       subject: subject,
       text: body,
     })
