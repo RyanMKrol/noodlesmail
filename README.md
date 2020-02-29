@@ -15,8 +15,9 @@ const mailClient = new NoodleMailClient({
   "pass": "examplePassword"
 })
 
-const from = 'exampleFromAddress@gmail.com'
-const to = 'exampleToAddress@gmail.com'
+mailClient.setFrom('exampleFromAddress@gmail.com')
+mailClient.setTo('exampleToAddress@gmail.com')
+
 const subject = 'ExampleSubject'
 const body = 'ExampleBody'
 
