@@ -22,7 +22,7 @@ const subject = 'ExampleSubject'
 const body = 'ExampleBody'
 
 async function main() {
-  await sender.sendMail(from, to, subject, body)
+  await sender.sendMail(subject, body)
 }
 
 main()
