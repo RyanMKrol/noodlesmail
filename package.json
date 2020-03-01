@@ -1,6 +1,6 @@
 {
-  "name": "noodlesmail",
-  "version": "1.0.15",
+  "name": "noodlemail",
+  "version": "1.0.0",
   "description": "A package for sending mail",
   "main": "build/index.js",
   "keywords": [
@@ -8,14 +8,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanMKrol/noodlesmail.git"
+    "url": "https://github.com/RyanMKrol/noodlemail.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir build",
     "start": "npm run-script build && node build/bin/www.js"
   },
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "dependencies": {
     "@babel/runtime": "^7.8.4",
     "nodemailer": "^6.4.2"
