@@ -1,3 +1,3 @@
 import MailSender from './MailSender'
 
-module.exports = MailSender
+export default MailSender
