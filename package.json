@@ -1,6 +1,6 @@
 {
   "name": "noodlemail",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package for sending mail",
   "main": "build/index.js",
   "keywords": [
@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
+    "@babel/runtime": "^7.10.5",
     "nodemailer": "^6.4.2"
   },
   "devDependencies": {
