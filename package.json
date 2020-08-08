@@ -1,6 +1,6 @@
 {
   "name": "noodle-email",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for sending mail",
   "main": "build/index.js",
   "keywords": [
