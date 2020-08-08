@@ -25,7 +25,18 @@ class MailSender {
       from: this.from,
       to: this.to,
       subject: subject,
-      text: body,
+      text: body
+    })
+
+    console.log('Message sent: %s', info.messageId)
+  }
+
+  async sendMailWithHtml(subject, body) {
+    let info = await this.transporter.sendMail({
+      from: this.from,
+      to: this.to,
+      subject: subject,
+      html: body
     })
 
     console.log('Message sent: %s', info.messageId)
@@ -33,7 +44,7 @@ class MailSender {
 }
 
 function validateCredentials(credentials) {
-  if (!credentials.user){
+  if (!credentials.user) {
     throw new Error('Could not find `user` in credentials')
   }
 

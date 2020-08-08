@@ -1,4 +1,4 @@
-# noodle-mail
+# noodle-email
 
 ## Overview
 
@@ -8,7 +8,7 @@ This package is just a wrapper around `nodemailer` that is setup for sending ema
 
 ```
 // app.js
-import NoodleMailClient from 'noodle-mail'
+import NoodleMailClient from 'noodle-email'
 
 const mailClient = new NoodleMailClient({
   "user": "exampleEmailAddress",
